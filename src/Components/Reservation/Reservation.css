@@ -1,0 +1,74 @@
+.reservation-body {
+    width: 100%;
+    height: 120vh;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+}
+
+.reservation-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.option-container {
+    border: 1px solid none;
+    width: 350px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+.name-input, .number-input {
+    width: 340px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+.number-of-people {
+    /* margin-top: 150px; */
+}
+
+.number-options {
+    width: 350px;
+}
+
+
+
+.time-options {
+    width: 350px;
+}
+
+.reservation-btn {
+    margin-top: 60px;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.reservation-confirmation {
+    width: 100%;
+    height: 50vh;
+    border: 1px solid none;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.confirmation-box {
+    font-size: 20px;
+    width: 570px;
+    height: 300px;
+    border: 1px solid none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.confirmation-text {
+    text-align: center;
+}

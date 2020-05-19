@@ -1,0 +1,1 @@
+select * from ramen_restaurant;

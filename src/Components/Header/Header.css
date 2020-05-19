@@ -1,0 +1,31 @@
+.header-body {
+    width: 100%;
+    height: 120px;
+    /* background-color: #404040; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    z-index: 2;
+}
+
+.links {
+    width: 90%;
+    height: 80%;
+    border: 1px solid none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.links > .active {
+    border-bottom: 3px solid black;
+}
+
+.header-link {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 760;
+}
